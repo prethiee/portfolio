@@ -1,0 +1,53 @@
+/** Importing Google Fonts **/
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+/** START - PortFolio CSS **/
+* {
+    font-family: 'Dosis', sans-serif;
+}
+.profile {
+    width: 42px;
+    margin-top: 5px;
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    font-size: 14px;
+    letter-spacing: 4px;
+    opacity: 0.9;
+}
+.navbar li a,
+.navbar .navbar-brand {
+    color: #d5d5d5 !important;
+}
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+#mycarousel .bckg {
+    opacity: 0.3;
+    width: 100%;
+    height: 650px;
+    margin-bottom: 15px;
+    filter: grayscale(90%);
+}
+.about-me {
+    color: #000000;
+    font-size: 36px;
+    word-wrap: break-word;
+}
+.col-sm-4 img {
+    height: 250px !important;
+}
+.panel-heading {
+    font-size: 32px;
+}
+.panel-default>.panel-heading,
+footer {
+    background-color: #2d2d30;
+    color: #f7eded;
+}
+.fa {
+    font-size: 36px;
+    color: rgba(236, 230, 230, 0.73);
+    padding: 5px 5px 5px 5px;
+}
+/** END - PortFolio CSS **/
